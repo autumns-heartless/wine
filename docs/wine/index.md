@@ -1,3 +1,4 @@
+<style src="./style/index.scss" scoped></style>
 <style src="./style/3d.scss" scoped></style>
 <style src="./style/border.scss" scoped></style>
 <style src="./style/card2.scss" scoped></style>
@@ -22,7 +23,7 @@ onMounted(() => {
 
 ## 效果 1
 
-<div class="card1">
+<div class="card card1">
   Magic Card
 </div>
 
@@ -80,7 +81,7 @@ onMounted(() => {
 
 ## 效果 3
 
-<div class="card2">
+<div class="card card2">
     <img src="/logo.png" alt="">
     <div class="text">
         <h2>How disciplined you are, how free you are.</h2>
@@ -90,7 +91,7 @@ onMounted(() => {
 
 ## 效果 4
 
-<div class="card3" data-tilt>
+<div class="card card3" data-tilt>
     <div class="content">
         <h2>01</h2>
         <h3>Card One</h3>
@@ -102,12 +103,10 @@ onMounted(() => {
 
 ## 效果 5
 
-<a href="https://www.mythrillfiction.com/the-dark-rider" alt="Mythrill" target="_blank">
-  <div class="card4">
-    <div class="wrapper">
-      <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-cover.jpg" class="cover-image" />
-    </div>
-    <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-title.png" class="title" />
-    <img src="https://ggayane.github.io/css-experiments/cards/dark_rider-character.webp" class="character" />
+<div class="card card4">
+  <div class="wrapper">
+    <img src="/images/dark_rider-cover.jpg" class="cover-image" />
   </div>
-</a>
+  <img src="/images/dark_rider-title.png" class="title" />
+  <img src="/images/dark_rider-character.webp" class="character" />
+</div>

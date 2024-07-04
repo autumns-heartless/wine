@@ -37,9 +37,10 @@ img {
   grid-template-columns: 0.9fr 1fr;
   margin: auto;
   padding: 2.5em 0;
-  min-width: 600px;
+  // min-width: 600px;
   background-color: white;
   border-radius: 5px;
+  transform: scale(0.8);
 }
 
 /* ----- Photo Section ----- */
@@ -74,9 +75,10 @@ img {
     }
   }
 
+  /* 苹果 */
   img {
     position: absolute;
-    left: -3.5em;
+    left: -2.5em;
     top: 2em;
     max-width: 110%;
     filter: saturate(150%) contrast(120%) hue-rotate(10deg)

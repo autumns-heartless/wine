@@ -4,6 +4,7 @@
 <style src="./style/card2.scss" scoped></style>
 <style src="./style/card3.scss" scoped></style>
 <style src="./style/card4.scss" scoped></style>
+<style src="./style/card5.scss" scoped></style>
 
 <script setup lang="ts">
 import { onMounted } from "vue";
@@ -109,4 +110,16 @@ onMounted(() => {
   </div>
   <img src="/images/dark_rider-title.png" class="title" />
   <img src="/images/dark_rider-character.webp" class="character" />
+</div>
+
+## 效果 6
+
+<div class="flip">
+    <div class="front" style="background-image: url(/images/pexels-photo-540518.webp)">
+       <h1 class="text-shadow">MOUNTAIN</h1>
+    </div>
+    <div class="back">
+       <h2>Angular</h2>
+       <p>Good tools make application development quicker and easier to maintain than if you did everything by hand..</p>
+    </div>
 </div>

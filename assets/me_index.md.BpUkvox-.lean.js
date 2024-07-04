@@ -1,0 +1,3 @@
+import{_ as n,c as o,j as e,a as s,I as i,w as _,a9 as a,D as p,o as c}from"./chunks/framework.BY5V-k-t.js";const b=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"me/index.md","filePath":"me/index.md","lastUpdated":1720081681000}'),l={name:"me/index.md"},d={class:"language-sh vp-adaptive-theme"},r=e("button",{title:"Copy Code",class:"copy"},null,-1),h=e("span",{class:"lang"},"sh",-1),m={class:"shiki shiki-themes github-light github-dark vp-code"},g=a("",1),u=a("",6);function k(C,T,f,x,v,S){const t=p("marquee");return c(),o("div",null,[e("div",d,[r,h,e("pre",m,[s(""),g,s(`
+`),i(t,{class:"advertisement"},{default:_(()=>[s("买白酒，找南将，好便宜")]),_:1}),s(`
+`)])]),u])}const y=n(l,[["render",k]]);export{b as __pageData,y as default};
